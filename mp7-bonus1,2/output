@@ -1,0 +1,1903 @@
+========================================================================
+                       Bochs x86 Emulator 2.6.8
+                Built from SVN snapshot on May 3, 2015
+                  Compiled on Sep 15 2018 at 17:09:18
+========================================================================
+------------------------------
+Bochs Configuration: Main Menu
+------------------------------
+
+This is the Bochs Configuration Interface, where you can describe the
+machine that you want to simulate.  Bochs has already searched for a
+configuration file (typically called bochsrc.txt) and loaded it if it
+could be found.  When you are satisfied with the configuration, go
+ahead and start the simulation.
+
+You can also start bochs with the -q option to skip these menus.
+
+1. Restore factory default configuration
+2. Read options from...
+3. Edit options
+4. Save options to...
+5. Restore the Bochs state from...
+6. Begin simulation
+7. Quit now
+
+Please choose one: [6] Choose one of the actions above: [die] Installing handler in IDT position 0
+Installing handler in IDT position 1
+Installing handler in IDT position 2
+Installing handler in IDT position 3
+Installing handler in IDT position 4
+Installing handler in IDT position 5
+Installing handler in IDT position 6
+Installing handler in IDT position 7
+Installing handler in IDT position 8
+Installing handler in IDT position 9
+Installing handler in IDT position 10
+Installing handler in IDT position 11
+Installing handler in IDT position 12
+Installing handler in IDT position 13
+Installing handler in IDT position 14
+Installing handler in IDT position 15
+Installing handler in IDT position 16
+Installing handler in IDT position 17
+Installing handler in IDT position 18
+Installing handler in IDT position 19
+Installing handler in IDT position 20
+Installing handler in IDT position 21
+Installing handler in IDT position 22
+Installing handler in IDT position 23
+Installing handler in IDT position 24
+Installing handler in IDT position 25
+Installing handler in IDT position 26
+Installing handler in IDT position 27
+Installing handler in IDT position 28
+Installing handler in IDT position 29
+Installing handler in IDT position 30
+Installing handler in IDT position 31
+Installing handler in IDT position 32
+Installing handler in IDT position 33
+Installing handler in IDT position 34
+Installing handler in IDT position 35
+Installing handler in IDT position 36
+Installing handler in IDT position 37
+Installing handler in IDT position 38
+Installing handler in IDT position 39
+Installing handler in IDT position 40
+Installing handler in IDT position 41
+Installing handler in IDT position 42
+Installing handler in IDT position 43
+Installing handler in IDT position 44
+Installing handler in IDT position 45
+Installing handler in IDT position 46
+Installing handler in IDT position 47
+Installed exception handler at ISR <0>
+Allocating Memory Pool... done
+Installed interrupt handler at IRQ <0>
+Hello World!
+CREATING THREAD 1...
+esp = <2098133>
+done
+DONE
+CREATING THREAD 2...esp = <2099181>
+done
+DONE
+CREATING THREAD 3...esp = <2103301>
+done
+DONE
+CREATING THREAD 4...esp = <2104349>
+done
+DONE
+STARTING THREAD 1 ...
+THREAD: 0
+FUN 1 INVOKED!
+FUN 1 IN ITERATION[0]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+THREAD: 1
+FUN 2 INVOKED! <THIS THREAD EXERCISES THE FILE SYSTEM> 
+FileSystem: Formatting disk
+FileSystem: Mounting file system for disk
+FUN 2 IN BURST[0]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+THREAD: 2
+FUN 3 INVOKED! <THIS THREAD EXERCISES THE FILE SYSTEM> 
+FUN 3 IN BURST[0]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+THREAD: 3
+FUN 4 IN BURST[0]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[1]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[1]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[1]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[1]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[2]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[2]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[2]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[2]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[3]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[3]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[3]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[3]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[4]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[4]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[4]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[4]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[5]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[5]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[5]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[5]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[6]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[6]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[6]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[6]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[7]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[7]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[7]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[7]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[8]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[8]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[8]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[8]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[9]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[9]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[9]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[9]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[10]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[10]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[10]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[10]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[11]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[11]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[11]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[11]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[12]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[12]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[12]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[12]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[13]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[13]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[13]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[13]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[14]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[14]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[14]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[14]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[15]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[15]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[15]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[15]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[16]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[16]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[16]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[16]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[17]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[17]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[17]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[17]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[18]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[18]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[18]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[18]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[19]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[19]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[19]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[19]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[20]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[20]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 3 IN BURST[20]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FileSystem: Deleting file
+File: Rewrite/erase content of file
+FUN 4 IN BURST[20]
+FUN 4: TICK [0]
+FUN 4: TICK [1]
+FUN 4: TICK [2]
+FUN 4: TICK [3]
+FUN 4: TICK [4]
+FUN 4: TICK [5]
+FUN 4: TICK [6]
+FUN 4: TICK [7]
+FUN 4: TICK [8]
+FUN 4: TICK [9]
+FUN 1 IN ITERATION[21]
+FUN 1: TICK [0]
+FUN 1: TICK [1]
+FUN 1: TICK [2]
+FUN 1: TICK [3]
+FUN 1: TICK [4]
+FUN 1: TICK [5]
+FUN 1: TICK [6]
+FUN 1: TICK [7]
+FUN 1: TICK [8]
+FUN 1: TICK [9]
+FUN 2 IN BURST[21]
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Creating file
+FileSystem: Assign Block From Disk 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+File: Rewrite/erase content of file
+File: Writing to file
+FileSystem: Assign Block From Disk 
+exer_file_sys : Write done 
+FileSystem: Looking up file
+file found 
+FileSystem: Looking up file
+file found 
+File: Reset current position in file
+File: Reading from file
+01234567890123456789
+File: Reset current position in file
+File: Reading from file
+abcdefghijabcdefghij
+exer_file_sys : Read done 
+FileSystem: Deleting file
